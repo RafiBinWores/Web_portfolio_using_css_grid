@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Using CSS Grid</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/portfolio.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="grid_nav-conatiner" id="nav">
+        <nav>
+            <a href="#" class="nav_logo">Rafi</a>
+            <div class="nav_menu">
+                <ul>
+                    <li>
+                        <a href="#home" class="nav_link blue_color">
+                            <i class="uil uil-estate"></i> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user"></i> About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt"></i> Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message"></i> Conatct
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="grid_container" id="home">
+            <div class="grid_cell grid">
+                <h1>Hi, I'm <span class="blue_color">Rafi</span></h1>
+                <h3>Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque, quibusdam sit optio vitae repellat rem ullam animi similique aperiam ea quidem eaque dignissimos deserunt veritatis pariatur eius itaque expedita!</p>
+                <div class="social">
+                    <a href="https://github.com/RafiBinWores" target="_blank"><i class="uil uil-github-alt"></i></a>
+                    <a href="https://www.linkedin.com/in/rafi-bin-wores-82973b219/" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-instagram"></i></a>
+                </div>
+                <a href="#contact" class="btn">Contact <i class="uil uil-message"></i></a>
+                <div class="scroll">
+                    <a href="#about"><i class="uil uil-mouse-alt scroll_mouse"></i> <span class="scroll_name">Scroll Down</span><i class="uil uil-angle-down scroll_mouse"></i></a>
+                </div>
+            </div>
+            <div class="grid_cell">
+                <img src="assets/img/portfolio.png" alt="">
+            </div>
+        </section>
+
+        <section class="about_container" id="about">
+            <div class="about_title-container">
+                <h1>About Me</h1>
+                <p>My introduction</p>
+            </div>
+            <div class="grid_container">
+                <div class="grid_cell">
+                    <img src="assets/img/project.png" alt="">
+                </div>
+                <div class="grid_cell">
+                    <div class="about_description">
+                        <p>Frontend Web Developer, with extensive knowledge and <br> years of experience working in web technologies and ui/ux design, delivering quality work.</p>
+                    </div>
+                    <div class="grid_box">
+                        <div>
+                            <span class="about_info_title">01+</span>
+                            <span class="about_info_name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about_info_title">05+</span>
+                            <span class="about_info_name">Compeleted <br> Project</span>
+                        </div>
+                    </div>
+                    <a href="assets/pdf/cover.pdf" class="btn">Download CV <i class="uil uil-file-download"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills_section" id="skills">
+            <div class="skills_title-container">
+                <h1>Skills</h1>
+                <p>My technical level</p>
+            </div>
+            <div class="grid_container-skills">
+                <div class="grid_cell">
+                        <span class="about_info_title"><i class="uil uil-brackets-curly scroll_mouse"></i> Frontend Developer</span>
+                        <span class="about_info_name">Less Than 1 year</span>
+                </div>
+                <div class="grid_cell">
+                        <span class="about_info_title"><i class="uil uil-server-connection scroll_mouse"></i> Backend Developer</span>
+                        <span class="about_info_name">Less Than 1 year</span>
+                </div>
+                <div class="grid_cell">
+                        <span class="about_info_title"><i class="uil uil-swatchbook scroll_mouse"></i> Ui/Ux Designer</span>
+                        <span class="about_info_name">More Than 1 year</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact_container" id="contact">
+            <div class="skills_title-container">
+                <h1>Contact me</h1>
+                <p>Get In Touch</p>
+            </div>
+            <div class="grid_container">
+                <div class="grid_cell">
+
+                   <div class="contact_info">
+                    <i class="uil uil-phone contact_icon"></i>
+                    <div>
+                        <h2>Call me</h2>
+                        <p>+88016******</p>
+                    </div>
+                   </div>
+
+                   <div class="contact_info">
+                    <i class="uil uil-envelope contact_icon"></i>
+                    <div>
+                        <h2>Email</h2>
+                        <p>rafibinwores@gmail.com</p>
+                    </div>
+                   </div>
+
+                   <div class="contact_info">
+                    <i class="uil uil-map-marker contact_icon"></i>
+                    <div>
+                        <h2>location</h2>
+                        <p>Mirpur-1, Dhaka 2016</p>
+                    </div>
+                   </div>
+                </div>
+                <div class="grid_cell">
+                    <form action="" class="contact_form">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="email" placeholder="Email" class="contact_input">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Type..." class="contact_input"></textarea>
+                    </form>
+                    <a href="" class="btn">Send <i class="uil uil-message"></i></a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="gotopbtn">
+            <a href="#nav"><i class="uil uil-arrow-up gotop"></i></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer_title">
+            <h1>Rafi Bin Wores</h1>
+            <p>Frontend Developer</p>
+        </div>
+        <br><br>
+        <div class="footer_copyright">
+            <p><small>@Rafi Bin Wores. All Right reserved</small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
